@@ -78,7 +78,7 @@ export const SearchBar = () => {
             return;
         }
         fetch(
-            `http://localhost:2400/celebrities/search?search=${value}`
+            `http://localhost:2400/celebrities?q=${value}`
         )
             .then((res) => res.json())
             .then((json) => setData(json));
