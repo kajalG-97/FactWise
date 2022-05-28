@@ -7,6 +7,8 @@ import * as React from 'react';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import CloseIcon from '@mui/icons-material/Close';
+import { useDispatch } from 'react-redux';
+import { celDeleteData } from '../redux/celebrities/celAction';
 
 
 
@@ -21,13 +23,16 @@ const style = {
     borderRadius: 2, boxShadow: `rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px`
 };
 
-export const DeleteModal = () => {
+export const DeleteModal = ({id}) => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
+    const dispatch = useDispatch()
+
     const handleDelete = () => {
         console.info('You clicked the delete icon.');
+        dispatch(celDeleteData(id));
     };
 
     return (

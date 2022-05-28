@@ -55,7 +55,7 @@ dispatch(getSingleData(single.id))
             <p >{single.description}</p>
           </Box>
           <Box sx={{ display: "flex", width: "18%", justifyContent: "space-between", pb: 2, alignContent: "", ml: 38 }}>
-            <DeleteModal />
+            <DeleteModal id={single.id} />
             <EditModal single={single} onClick={handleEdit}/>
           </Box>
         </AccordionDetails>
