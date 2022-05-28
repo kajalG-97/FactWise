@@ -2,7 +2,7 @@ import { Avatar } from "@mui/material"
 import { Box } from "@mui/system"
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getCelData, getSingleData } from "../redux/celebrities/CELAction";
+import { getCelData, getSingleData } from "../redux/celebrities/celAction";
 import { Avtar } from "./Avtar";
 import * as React from 'react';
 import Accordion from '@mui/material/Accordion';
