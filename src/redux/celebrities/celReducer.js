@@ -1,4 +1,4 @@
-import { CEL_DATA, CEL_ERROR, CEL_LOADING, SINGLE_DATA } from "./CELAction"
+import { CEL_DATA, CEL_ERROR, CEL_LOADING, SINGLE_DATA } from "./cleAction"
 
 const initialState = {
     celList: [],
