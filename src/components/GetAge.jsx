@@ -2,17 +2,15 @@ handleChange_age = (event) => {
     console.log("DOB:", event.target.value);
 
     this.setState({ dob1: event.target.value }, () => {
-      // example of setState callback
-      // this will have the latest this.state.dob1
+    
       console.log(this.state.dob1);
     })
 
-    // call calculate_age with event.target.value
     var age_latest = {age_latest: this.calculate_age(event.target.value)}
     console.log(age_latest);
 
     this.setState({ age1: age_latest }, () => {
-      // this will have the latest this.state.age1
+
       console.log("Age:", this.state.age1);
     })
   }

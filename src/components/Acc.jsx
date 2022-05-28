@@ -18,6 +18,7 @@ import { EditModal } from './EditModel';
 
 
 export const Acc = ({single,i,handleChange,expanded}) => {
+  console.log('sinfghjkgle', single);
   
 const dispatch = useDispatch();
 
@@ -55,7 +56,7 @@ dispatch(getSingleData(single.id))
           </Box>
           <Box sx={{ display: "flex", width: "18%", justifyContent: "space-between", pb: 2, alignContent: "", ml: 38 }}>
             <DeleteModal />
-            <EditModal onClick={handleEdit}/>
+            <EditModal single={single} onClick={handleEdit}/>
           </Box>
         </AccordionDetails>
       </Accordion>

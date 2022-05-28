@@ -39,7 +39,7 @@ const style = {
     borderRadius: 2, boxShadow: `rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px`
 };
 
-export const EditModal = () => {
+export const EditModal = ({single}) => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -52,7 +52,7 @@ export const EditModal = () => {
 
     const navigate = useNavigate();
         
-        const { single } = useSelector((store) => store.celebrities)
+        // const { single } = useSelector((store) => store.celebrities)
         console.log('single', single);
     
         const [data, setData] = useState({});
@@ -89,7 +89,7 @@ export const EditModal = () => {
     
         };
     
-        const Option = ["Rather not say", "female", "male"];
+        const Option = ["Rather not say", "female", "male","Transgender","Other"];
     
         const { first,
             last,
