@@ -117,8 +117,8 @@ export const SearchBar = () => {
                         color: "#000000",
                         textAlign: "left",
 
-                        width: "200%",
-                        height: "200px",
+                        width: "100%",
+                        height: "100px",
                         overflow: "scroll"
                     }} className="autocomplete">
                         <Box sx={{ m: "auto", width: "40%", border: 0 }}>
