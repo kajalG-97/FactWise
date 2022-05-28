@@ -77,7 +77,7 @@ export const EditModal = ({single}) => {
         };
     
         const handleChangeOption = (e) => {
-            setData({ ...data, city: e.target.value });
+            setData({ ...data, gender: e.target.value });
         }
     
         const handleSubmit = (e) => {
