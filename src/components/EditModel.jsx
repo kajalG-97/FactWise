@@ -11,7 +11,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { celPatchData, getSingleData } from "../redux/celebrities/CELAction";
+import { celPatchData, getSingleData } from "../redux/celebrities/celAction";
 import { Avtar } from "./Avtar";
 import * as React from 'react';
 import Accordion from '@mui/material/Accordion';

@@ -7,7 +7,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Avatar } from "@mui/material"
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getSingleData } from "../redux/celebrities/CELAction";
+import { getSingleData } from "../redux/celebrities/celAction";
 import { Avtar } from "./Avtar";
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import EditIcon from '@mui/icons-material/Edit';
