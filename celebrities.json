@@ -8,7 +8,7 @@
       "gender": "male",
       "email": "aidan.wang@example.com",
       "picture": "https://randomuser.me/api/portraits/med/men/93.jpg",
-      "country": "New Zealand",
+      "country": "New Zealand4",
       "description": "This character description generator will generate a fairly random description of a belonging to Aidan Wang. However, some aspects of the descriptions will remain the same, this is done to keep the general structure the same, while still randomizing the important details of Aidan Wang."
     },
     {
@@ -49,22 +49,12 @@
       "first": "Emilia",
       "last": "Gonzalez",
       "dob": "1949-10-07",
-      "gender": "female",
+      "gender": "Transgender",
       "email": "emilia.gonzalez@example.com",
       "picture": "https://randomuser.me/api/portraits/med/women/90.jpg",
       "country": "Spain",
-      "description": "This character description generator will generate a fairly random description of a belonging to Emilia Gonzalez. However, some aspects of the descriptions will remain the same, this is done to keep the general structure the same, while still randomizing the important details of Emilia Gonzalez."
-    },
-    {
-      "id": 6,
-      "first": "Alicia",
-      "last": "Ma",
-      "dob": "1995-11-23",
-      "gender": "female",
-      "email": "alicia.ma@example.com",
-      "picture": "https://randomuser.me/api/portraits/med/women/91.jpg",
-      "country": "Canada",
-      "description": "This character description generator will generate a fairly random description of a belonging to Alicia Ma. However, some aspects of the descriptions will remain the same, this is done to keep the general structure the same, while still randomizing the important details of Alicia Ma."
+      "description": "This character description generator will generate a fairly random description of a belonging to Emilia Gonzalez. However, some aspects of the descriptions will remain the same, this is done to keep the general structure the same, while still randomizing the important details of Emilia Gonzalez.",
+      "city": "Transgender"
     },
     {
       "id": 7,

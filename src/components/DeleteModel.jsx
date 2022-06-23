@@ -37,7 +37,7 @@ export const DeleteModal = ({id}) => {
 
     return (
         <div>
-            <DeleteForeverIcon color="error" onClick={handleOpen} />
+            <DeleteForeverIcon color="error" size="large" onClick={handleOpen} />
             <Modal
                 open={open}
                 onClose={handleClose}
